@@ -121,7 +121,7 @@ const Skills = () => {
                 <div 
                 key={id}
                 className='flex flex-col items-center justify-center p-5 shadow-lg
-                dark:shadow-cyan-200 rounded-xl duration-300 ease-in-out hover:scale-105'>
+                shadow-cyan-200 rounded-xl duration-300 ease-in-out hover:scale-105'>
                     <img src={image} alt={title}
                     className='rounded-full w-16 object-contain' />
                     <h3 className='mt-4 text-base'>{title}</h3>

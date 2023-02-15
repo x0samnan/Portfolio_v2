@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { useState } from "react";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Skills />
         <Projects />
+        <Education />
       </main>
     </div>
   );
