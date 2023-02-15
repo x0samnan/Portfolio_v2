@@ -17,11 +17,6 @@ const Hero = () => {
         },
         {
             id: 3,
-            link: "https://instagram.com/ig.samnan",
-            icon: <FaInstagram />,
-        },
-        {
-            id: 4,
             link: "https://linkedin.com/in/x0samnan",
             icon: <FaLinkedin />,
         }
