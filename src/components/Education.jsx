@@ -27,15 +27,14 @@ const Education = () => {
   title="Education" 
   subtitle="My formal education"
   > 
-        <div className="grid gap-8 lg:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-2">
             {education.map(({id, title, image, name, year, address}) => (
                 <div
                 key={id}
-                className='flex p-4 justify-center items-center rounded-xl shadow-md
-                shadow-cyan-500 duration-300 ease-in-out hover:scale-105'>
+                className='max-w-lg flex shadow-lg shadow-cyan-500 rounded-2xl overflow-hidden duration-300 ease-in-out hover:scale-105'>
                     <div>
                         <img src={image} alt={title} 
-                        className='W-2/3'/>
+                        className='W-1/3'/>
                     </div>
                     <div className='w-2/3 flex flex-col justify-center items-center gap-3 p-2'>
                         <h3 className='text-xl font-semibold'>
