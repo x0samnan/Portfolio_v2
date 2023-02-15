@@ -114,7 +114,7 @@ const Skills = () => {
         }
 
     ];
-  return <Section title="Skills" subtitle="List of tech stacks I am familiar with">
+  return <Section title="Skills" subtitle="List of TECH STACKS I am familiar with">
     <div className='grid gap-10 grid-cols-3 lg:grid-cols-6'>
         {
             skills.map(({id, image, title}) => (

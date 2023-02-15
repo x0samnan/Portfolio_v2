@@ -40,7 +40,7 @@ const Projects = () => {
 
 <Section 
   title="Projects" 
-  subtitle="Some real-life problem solving experiments"
+  subtitle="Projects based on some real-life problem solving"
   >
     <div className='grid gap-8 lg:grid-cols-2'>
         {

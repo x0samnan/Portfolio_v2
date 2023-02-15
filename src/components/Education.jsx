@@ -25,7 +25,7 @@ const Education = () => {
   return (
     <Section 
   title="Education" 
-  subtitle="My formal education"
+  subtitle="My formal education? Here it is."
   > 
         <div className="grid gap-10 lg:grid-cols-2">
             {education.map(({id, title, image, name, year, address}) => (
