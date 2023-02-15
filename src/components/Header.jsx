@@ -21,7 +21,7 @@ const Header = ({darkMode, setDarkMode}) => {
     <header className='bg-white dark:bg-gray-900
      text-gray-900'>
       <nav className='flex justify-between items-center p-5'>
-        <h1 className='text-lg dark:text-green-500'>
+        <h1 className='text-lg text-green-600 dark:text-green-500'>
           <span> (->) {text}</span>
           <Cursor cursorColor='#0FFF50' />
         </h1>
