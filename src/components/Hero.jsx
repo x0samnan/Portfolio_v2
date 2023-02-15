@@ -25,8 +25,15 @@ const Hero = () => {
             link: "https://linkedin.com/in/x0samnan",
             icon: <FaLinkedin />,
         }
-
     ]
+
+    window.addEventListener('scroll', function () {
+        const downArrow = document.querySelector('.down-arrow');
+
+        if(this.scrollY >= 2) downArrow.classList.add('hide-down-arrow');
+        else downArrow.classList.remove("hide-down-arrow");
+    });
+
   return (
     <section className='min-h-screen flex flex-col justify-start items-center p-5 text-center'>
         <h2 className='text-5xl text-rose-500 uppercase font-bold'>
@@ -54,10 +61,19 @@ const Hero = () => {
         <div>
             <img src={avatar} alt='avatar' className='w-60 h-60 md:w-72 md:h-72 
             object-cover object-top rounded-xl' />
-            <a href='https://github.com/x0samnan/Resume/resume.pdf'>
+            <a href='https://github.com/x0samnan/Resume/blob/main/Samnan_Resume.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-full shadow-xl hover:shadow-2xl duration-300'
+            >
                 RESUME
             </a>
         </div>   
+        <div className='mt-8'>
+            <FaArrowDown
+            className='text-cyan-500 text-3xl animate-bounce' 
+            />
+        </div>
     </section>
   )
 }
