@@ -1,1 +1,1 @@
-IN PROGRESS! WILL BE LIVE ON https://x0samnan.live/
+# LIVE ON INTERNET
