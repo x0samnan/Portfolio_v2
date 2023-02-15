@@ -8,7 +8,9 @@ const Footer = () => {
         Made with ❤️ by Samnan Siddique
         <br />
         Support by forking and starring<a href='https://github.com/x0samnan/Portfolio_v2'
-        className='text-green-500'> this </a>repo
+        className='text-green-500'
+        target="_blank"
+        rel='noopener noreferrer'> this </a>repo
         <br /><br />
         © 2023 Samnan Siddique | All Rights Reserved
         </p>
