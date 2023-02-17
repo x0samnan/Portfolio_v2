@@ -49,7 +49,7 @@ const Hero = () => {
         <div>
             <img src={avatar} alt='avatar' className='w-60 h-60 md:w-72 md:h-72 
             object-cover object-top rounded-xl' />
-            <a href='https://github.com/x0samnan/Resume/blob/main/Samnan_Resume.pdf'
+            <a href='https://x0samnan.github.io/Resume/'
             target='_blank'
             rel='noopener noreferrer'
             className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-full shadow-xl hover:shadow-2xl duration-300'
