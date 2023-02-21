@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Certifications from "./components/Certifications";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Hero />
         <Skills />
         <Projects />
+        <Certifications />
         <Education />
         <Contact />
         <Footer />
