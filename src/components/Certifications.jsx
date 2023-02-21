@@ -30,7 +30,7 @@ const Certifications = () => {
             key={id}
             className='max-w-lg flex shadow-lg shadow-cyan-500 rounded-2xl overflow-hidden duration-300 ease-in-out hover:scale-105'>
                 <a
-                className='cursor-pointer duration-150 hover:scale-150'
+                className='cursor-pointer duration-150 hover:scale-110'
                 href={link}
                 alt={title}
                 target='_blank'
