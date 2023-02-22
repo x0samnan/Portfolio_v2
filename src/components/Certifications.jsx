@@ -28,7 +28,7 @@ const Certifications = () => {
             certifications.map(({id, title, image, link}) => (
             <div
             key={id}
-            className='max-w-lg flex shadow-lg shadow-cyan-500 rounded-2xl overflow-hidden duration-300 ease-in-out hover:scale-105'>
+            className='max-w-lg flex shadow-lg shadow-cyan-500 rounded-2xl overflow-hidden duration-300 ease-in-out hover:scale-105 hover:shadow-rose-500'>
                 <a
                 className='cursor-pointer duration-150 hover:scale-110'
                 href={link}

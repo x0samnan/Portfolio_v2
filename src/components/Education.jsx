@@ -31,7 +31,7 @@ const Education = () => {
             {education.map(({id, title, image, name, year, address}) => (
                 <div
                 key={id}
-                className='max-w-lg flex shadow-lg shadow-cyan-500 rounded-2xl overflow-hidden duration-300 ease-in-out hover:scale-105'>
+                className='max-w-lg flex shadow-lg shadow-cyan-500 rounded-2xl overflow-hidden duration-300 ease-in-out hover:scale-110 hover:shadow-rose-500'>
                     <div>
                         <img src={image} alt={title} 
                         className='W-1/3'/>

@@ -79,7 +79,7 @@ const Contact = () => {
                     </div>
                     <div className='flex items-center justify-center'>
                         <button className='my-8 bg-gradient-to-r from-rose-500 to-cyan-500 text-white
-                        px-6 hover:scale-105 duration-200 py-3 font-light uppercase rounded-md tracking-wider cursor-pointer'>
+                        px-6 hover:scale-105 duration-200 py-3 font-light uppercase rounded-full tracking-wider cursor-pointer'>
                             Send Message
                         </button>
                     </div>

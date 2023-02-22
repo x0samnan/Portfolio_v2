@@ -31,7 +31,7 @@ const Hero = () => {
             Student | Developer | Open-Source
         </h3>
         <p className='max-w-xl font-bold text-cyan-500'>
-            Hi <span className='animate-pulse text-3xl'>👋</span>, I'm Samnan! A sophomore who is an Open-Source enthusiast, likes Iced Americano, Animes, Light/Web Novels, Webtoons and Music. Love to explore and work on new tech stacks.
+            Hi <span class="wave">👋</span>, I'm Samnan! A sophomore who is an Open-Source enthusiast, likes Iced Americano, Animes, Light/Web Novels, Webtoons and Music. Love to explore and work on new tech stacks.
         </p> 
         <div className='flex justify-evenly py-8 text-3xl w-full md:w-1/3'>
             {socials.map(({ id, link, icon }) => (
