@@ -50,7 +50,7 @@ const Contact = () => {
             className='flex w-full items-center justify-evenly text-3xl py-8'> 
                 {socials.map(({icon, link}) => (
                     <a href={link} target='_blank' rel='noopener noreferrer'
-                    className='duration-300 ease-in-out hover:text-rose-500'>{icon}</a>
+                    className='duration-300 ease-in-out hover:text-rose-500 hover:scale-125'>{icon}</a>
                 ))}
             </div>
             <div className='p-8 text-left w-full'>

@@ -38,7 +38,7 @@ const Hero = () => {
                 <a 
                 href={link} 
                 key={id}
-                className='cursor-pointer duration-300 hover:text-rose-500'
+                className='cursor-pointer duration-300 hover:text-rose-500 hover:scale-125'
                 target="_blank"
                 rel='noopener noreferrer'
                 >
@@ -52,7 +52,7 @@ const Hero = () => {
             <a href='https://x0samnan-resume.vercel.app'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-full shadow-xl hover:shadow-2xl duration-300'
+            className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-full shadow-xl hover:shadow-2xl duration-300 hover:scale-105'
             >
                 RESUME
             </a>
